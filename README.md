@@ -15,6 +15,7 @@ The goal of this package is to provide a backbone for multi-agent simulation of 
 
 - [**STABLE**][docs-stable-url] &mdash; **documentation of the most recently tagged version.**
 - [**DEV**][docs-dev-url] &mdash; **documentation of the development version.**
+- [**TUTORIAL**](https://pszufe.github.io/OpenStreetMapX_Tutorial/)  &mdash; A simple tutorial showing routing simulation with OpenStreetMapX along with integration with *folium* via `PyCall.jl`
 
 [docs-latest-img]: https://img.shields.io/badge/docs-latest-blue.svg
 [docs-stable-img]: https://img.shields.io/badge/docs-stable-blue.svg
@@ -32,7 +33,7 @@ The goal of this package is to provide a backbone for multi-agent simulation of 
 The current version uses Julia 1.0
 
 ```julia
-using Pkg; Pkg.add(PackageSpec(url="https://github.com/pszufe/OpenStreetMapX.jl"))
+using Pkg; Pkg.add("OpenStreetMapX.jl")
 ```
 
 Note that on Linux platform you need to separately install `libexpat` used by the library to parse XML (on Windows this step is not required). For example, on Ubuntu run in bash shell:
